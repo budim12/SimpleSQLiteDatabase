@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#31a2ff"
+        android:layout_width="10dp"
+        android:layout_height="70dp"></LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#bff9af"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:id="@+id/imgPictures"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/txtTitles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titles"/>
+
+            <TextView
+                android:textSize="10sp"
+                android:id="@+id/txtSubtitles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subtitles"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
